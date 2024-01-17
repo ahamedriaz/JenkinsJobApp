@@ -16,6 +16,8 @@ public class JenkinsJobAppApplication {
     @PostConstruct
     public void init() {
         logger.info("Welcome To Learner Guides");
+
+        System.out.println("Welcome To Learner Guides");
     }
 
     public static void main(String[] args) {
